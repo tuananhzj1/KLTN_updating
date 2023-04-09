@@ -1,0 +1,75 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/tuananh1602/opencv/build/modules/rgbd/opencl_kernels_rgbd.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/opencl_kernels_rgbd.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/colored_kinfu.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/colored_kinfu.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/colored_tsdf.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/colored_tsdf.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/depth_cleaner.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_cleaner.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/depth_registration.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_registration.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/depth_to_3d.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/depth_to_3d.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/dqb.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/dqb.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/dynafu.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/dynafu.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/dynafu_tsdf.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/dynafu_tsdf.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/fast_icp.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/fast_icp.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/hash_tsdf.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/hash_tsdf.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/kinfu.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/kinfu.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/kinfu_frame.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/kinfu_frame.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/large_kinfu.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/large_kinfu.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/linemod.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/linemod.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/nonrigid_icp.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/nonrigid_icp.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/normal.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/normal.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/odometry.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/odometry.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/plane.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/plane.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/pose_graph.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/pose_graph.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/tsdf.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/tsdf.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/tsdf_functions.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/tsdf_functions.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/utils.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/utils.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/volume.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/volume.cpp.o"
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/src/warpfield.cpp" "/home/tuananh1602/opencv/build/modules/rgbd/CMakeFiles/opencv_rgbd.dir/src/warpfield.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "CVAPI_EXPORTS"
+  "_USE_MATH_DEFINES"
+  "__OPENCV_BUILD=1"
+  "__STDC_CONSTANT_MACROS"
+  "__STDC_FORMAT_MACROS"
+  "__STDC_LIMIT_MACROS"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "."
+  "/home/tuananh1602/opencv_contrib/modules/rgbd/include"
+  "modules/rgbd"
+  "/home/tuananh1602/opencv/modules/core/include"
+  "/home/tuananh1602/opencv/modules/flann/include"
+  "/home/tuananh1602/opencv/modules/imgproc/include"
+  "/home/tuananh1602/opencv/modules/features2d/include"
+  "/home/tuananh1602/opencv/modules/calib3d/include"
+  )
+
+# Pairs of files generated by the same build rule.
+set(CMAKE_MULTIPLE_OUTPUT_PAIRS
+  "/home/tuananh1602/opencv/build/lib/libopencv_rgbd.so" "/home/tuananh1602/opencv/build/lib/libopencv_rgbd.so.4.5.5"
+  "/home/tuananh1602/opencv/build/lib/libopencv_rgbd.so.405" "/home/tuananh1602/opencv/build/lib/libopencv_rgbd.so.4.5.5"
+  )
+
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/tuananh1602/opencv/build/modules/calib3d/CMakeFiles/opencv_calib3d.dir/DependInfo.cmake"
+  "/home/tuananh1602/opencv/build/3rdparty/carotene/hal/CMakeFiles/tegra_hal.dir/DependInfo.cmake"
+  "/home/tuananh1602/opencv/build/modules/features2d/CMakeFiles/opencv_features2d.dir/DependInfo.cmake"
+  "/home/tuananh1602/opencv/build/modules/flann/CMakeFiles/opencv_flann.dir/DependInfo.cmake"
+  "/home/tuananh1602/opencv/build/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/tuananh1602/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
